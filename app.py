@@ -218,7 +218,7 @@ class IterMeter(object):
         return self.val
 
 # Specify a path
-PATH = "Trained_Model.pt"
+PATH = "jit-model.pth"
 
 # Load
 trained_model = torch.load(PATH,map_location ='cpu')
